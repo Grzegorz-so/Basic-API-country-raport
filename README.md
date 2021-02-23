@@ -16,4 +16,6 @@ which creates a .csv file including data like:
 - Currency symbol and name, and converted value of the currency to PLN
 - Date and time of extraction
 
+This repository contains three possible solutions in .py file and main.ipynb file with all three solutions together
+
 ***Status: Completed!***
