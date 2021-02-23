@@ -127,7 +127,7 @@ df["time of extraction"] = datetime.datetime.now()      # Making a column which 
 
 #4th stage - creating a csv file
 
-df.to_csv("raport_eu_2.csv")      # Finally making a csv file raport_eu.csv
+df.to_csv("raport2.csv")      # Finally making a csv file raport_eu.csv
 
 end = time.time()       # Ending time for measurement purposes
 

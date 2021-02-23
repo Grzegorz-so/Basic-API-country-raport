@@ -107,7 +107,7 @@ for x in eu_json:
 
 # 3rd stage - making DataFrame and dumping it to csv file
 
-pd.DataFrame({"Country name - English":name,"Country name - Native":nativeName,"Country 2 code":alpha2Code,"Country 3 code":alpha3Code,"Coordinates":latlng,"Population":population,"Area":area,"Capital city":capital,"Languages":languages,"topLevelDomain":topLevelDomain,"timezones":timezones,"Is the country in EU?":regionalBlocs,"Distance to Poland in km":distance_to_PL,"Currency name":currencies,"Currency symbol":currencies_symbol,"To PLN":currencies_to_PLN,"Time of extraction":datetime.datetime.now() }).to_csv("raport_eu_1.csv")
+pd.DataFrame({"Country name - English":name,"Country name - Native":nativeName,"Country 2 code":alpha2Code,"Country 3 code":alpha3Code,"Coordinates":latlng,"Population":population,"Area":area,"Capital city":capital,"Languages":languages,"topLevelDomain":topLevelDomain,"timezones":timezones,"Is the country in EU?":regionalBlocs,"Distance to Poland in km":distance_to_PL,"Currency name":currencies,"Currency symbol":currencies_symbol,"To PLN":currencies_to_PLN,"Time of extraction":datetime.datetime.now() }).to_csv("raport1.csv")
 
 end = time.time()     # Ending time of the program for measurement purposes
 print(f"Done! It took me {round(end - start,2)} seconds")
